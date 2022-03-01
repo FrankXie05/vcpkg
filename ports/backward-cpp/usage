@@ -1,0 +1,4 @@
+The package backward-cpp is header only library and can be used from CMake via:
+
+    find_package(Backward)
+    target_link_libraries(mytarget PUBLIC Backward::Backward)

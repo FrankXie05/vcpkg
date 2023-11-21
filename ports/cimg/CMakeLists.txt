@@ -19,3 +19,7 @@ install(
     FILES ${CMAKE_CURRENT_SOURCE_DIR}/CImg.h
     DESTINATION include
 )
+
+install(
+    DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/plugins DESTINATION include)
+

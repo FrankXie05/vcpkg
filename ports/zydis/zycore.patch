@@ -1,16 +1,7 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 62d5de6..0f3bcf1 100644
+index 62d5de6..87a37fb 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -138,7 +138,7 @@ function (locate_zycore)
-     )
- endfunction ()
- 
--locate_zycore()
-+find_package(zycore CONFIG REQUIRED)
- 
- # =============================================================================================== #
- # Library configuration                                                                           #
 @@ -151,7 +151,7 @@ else ()
      target_compile_definitions("Zydis" PUBLIC "ZYDIS_STATIC_BUILD")
  endif ()

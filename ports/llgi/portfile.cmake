@@ -7,7 +7,7 @@ vcpkg_from_github(
     SHA512 d521b47f293b90faed28f9648facdfae327c6122ea6391683a08e48558fdf62ce0d3977f78aef3bc276d77ab19fc40ab3cc4d27311dd5a292e0884635fe7c9d3
     HEAD_REF master
     PATCHES
-        fix-cmake-use-vcpkg.patch
+      #  fix-cmake-use-vcpkg.patch
         fix-sources.patch
 )
 
